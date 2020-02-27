@@ -5,7 +5,9 @@ let currentTime = moment().format("dddd, MMMM D, YYYY.");
 let currentHour = moment().format("HH");
 // 
 $("#currentDay").text(currentTime);
-
+//main loop to iterate through the elements 
+// add time to left side. update color of text area and add listener to 
+//
 $(".input-group").each(function(index, element) {
   let blockTime = $(this.firstElementChild.firstElementChild);
   
@@ -29,7 +31,8 @@ $(".input-group").each(function(index, element) {
       blockTextArea.addClass("present").attr("data-value", blockID)
                   .attr("id", blockHour + "textArea");
     }
-   let blockEventButton = $($(this)[0].children[2].firstElementChild)
+    // set variable for add event button element
+   let blockEventButton = $($(this)[0].children[2].firstElementChild) 
   blockEventButton.addClass(blockHour + " addEventButton").attr("data-value", blockHour)
         .attr("id", blockHour + "addEventButton");
 });
