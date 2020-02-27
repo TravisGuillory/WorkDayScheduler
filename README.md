@@ -5,6 +5,8 @@ This is a  simple calendar application that allows the user to save events for e
 
 Thee application uses Moment.js for time keeping.
 
+https://travisguillory.github.io/WorkDayScheduler/
 
+GitHub repo: https://github.com/TravisGuillory/WorkDayScheduler
 
 ![Screenshot of game](https://github.com/TravisGuillory/WorkDayScheduler/blob/master/img/screenshot.png)
