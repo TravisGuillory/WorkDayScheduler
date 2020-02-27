@@ -8,6 +8,9 @@ $("#currentDay").text(currentTime);
 //main loop to iterate through the elements 
 // add time to left side. update color of text area and add listener to 
 //
+
+
+
 $(".input-group").each(function(index, element) {
   let blockTime = $(this.firstElementChild.firstElementChild);
   
