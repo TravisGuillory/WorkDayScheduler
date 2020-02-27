@@ -9,4 +9,7 @@ https://travisguillory.github.io/WorkDayScheduler/
 
 GitHub repo: https://github.com/TravisGuillory/WorkDayScheduler
 
+My Portfolio: https://travisguillory.github.io/Portfolio/
+
 ![Screenshot of game](https://github.com/TravisGuillory/WorkDayScheduler/blob/master/img/screenshot.png)
+
